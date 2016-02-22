@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class DBConnection {
     public static final DBConnection INSTANCE = new DBConnection();
     private static Connection connection;
-    private static final String path = "jdbc:jtds:sqlserver://htp://johnserver.cloudapp.net:1433/HTA;instance=SQLEXPRESS;integratedSecurity=true;";
+    private static final String path = "jdbc:jtds:sqlserver://40.117.229.121:1433/HTA;instance=SQLEXPRESS;integratedSecurity=true;";
     private static ArrayList<String> list = new ArrayList<>();
 
     private DBConnection(){
